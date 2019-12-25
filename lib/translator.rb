@@ -21,7 +21,7 @@ def get_japanese_emoticon(yaml_file, emoticon)
   
   emoticons_hash["get_emoticon"].each do |english, japanese|
     japanese_equivalent = nil
-    
+  end 
   
 end
 
