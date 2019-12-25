@@ -24,7 +24,6 @@ def get_japanese_emoticon(yaml_file, emoticon)
     if emoticon == english
       japanese_equivalent = japanese
     end
-    
   end  
 end
 
