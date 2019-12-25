@@ -9,6 +9,7 @@ def load_library(yaml_file)
   emoticons.each do |meaning, array|
      english = array[0]
      japanese = array[1]
+     
      emoticons_hash["get_meaning"][japanese] = meaning
      emoticans_hash["get_emoticon"][english] = japanese
   end 
