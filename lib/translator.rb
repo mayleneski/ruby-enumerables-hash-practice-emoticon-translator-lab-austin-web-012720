@@ -12,7 +12,7 @@ def load_library(yaml_file)
      emoticons_hash["get_meaning"][japanese] = meaning
       emoticans_hash["get_emoticon"][english] = japanese
   end 
-  return emoticons_hash
+  emoticons_hash
 end
 
 def get_japanese_emoticon
