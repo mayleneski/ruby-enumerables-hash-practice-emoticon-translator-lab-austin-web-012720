@@ -6,7 +6,7 @@ def load_library(yaml_file)
     "get_emoticon" => {}
   }
   emoticons = YAML.load_file(yaml_file)
-  YAML.load_file(yaml_file).each do |meaning, array|
+  emoticons.each do |meaning, array|
      english = array[0]
      japanese = array[1]
      emoticons_hash["get_meaning"][japanese] = meaning
