@@ -1,4 +1,5 @@
 require 'yaml'
+require 'pry'
 
 def load_library(yaml_file)
   emoticons_hash = {
@@ -14,6 +15,7 @@ def load_library(yaml_file)
      emoticons_hash["get_emoticon"][english] = japanese
   end 
   emoticons_hash
+  binding.pry
 end
 
 def get_japanese_emoticon(yaml_file, emoticon)
