@@ -22,15 +22,7 @@ def get_japanese_emoticon(yaml_file, emoticon)
   emoticons_hash["get_emoticon"].each do |english, japanese|
     japanese_equivalent = nil
     
-    if emoticon == english
-      japanese_equivalent = japanese
-    end
-  end 
-  if japanese_equivalent == nil
-    return "Sorry, that emoticon was not found"
-  else
-    return japanese_equivalent
-  end  
+  
 end
 
 def get_english_meaning
